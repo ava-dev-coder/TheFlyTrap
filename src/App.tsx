@@ -11,9 +11,9 @@ import {
   VStack,
 } from "@chakra-ui/react";
 
-import type { Tweet } from "./types/Tweet"
+import type { Tweet } from "./types/tweet"
 import { useState, useEffect } from "react";
-import { supabase } from "./utils/supabase";
+import { supabase } from "./Utils/supabase";
 
 function App() {
   // Tweets is the current list of tweets shown
